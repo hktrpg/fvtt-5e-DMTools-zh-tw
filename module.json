@@ -118,6 +118,6 @@
     "maximum": "12"
   },
   "url": "https://github.com/hktrpg/fvtt-5e-DMTools-zh-tw",
-  "manifest": "https://github.com/hktrpg/fvtt-5e-classpack-zh-tw/releases/download/1.0.0/module.json",
-  "download": "https://github.com/hktrpg/fvtt-5e-classpack-zh-tw/releases/download/1.0.0/dnd5e_DMTools.zip"
+  "manifest": "https://github.com/hktrpg/fvtt-5e-DMTools-zh-tw/releases/download/1.0.0/module.json",
+  "download": "https://github.com/hktrpg/fvtt-5e-DMTools-zh-tw/releases/download/1.0.0/dnd5e_DMTools.zip"
 }

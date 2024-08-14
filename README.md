@@ -1,5 +1,7 @@
 # fvtt-DMTools
 
+![downloads](https://img.shields.io/github/downloads/hktrpg/fvtt-5e-DMTools-zh-tw/total)
+
 本模組為[DMTools簡體中文](https://github.com/feederze/DMTools)的正體中文化
 
 ## 安裝方法

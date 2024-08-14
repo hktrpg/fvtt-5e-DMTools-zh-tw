@@ -2,7 +2,10 @@
 
 本模組為[DMTools簡體中文](https://github.com/feederze/DMTools)的正體中文化
 
-## 安裝網址
+## 安裝方法
+
+打開安裝MOD界面，複製以下路徑
+
 ```
     https://raw.githubusercontent.com/hktrpg/fvtt-5e-DMTools-zh-tw/main/module.json
 ```

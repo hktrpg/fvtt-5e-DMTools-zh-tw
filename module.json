@@ -1,7 +1,7 @@
 {
   "id": "dnd5e_DMTools",
-  "title": "DND5E城主工具包",
-  "description": "目前集成了物品随机表,部分常用物品材料等。部分功能依赖于Better Roll Tables。",
+  "title": "DND5E城主工具包-正體中文",
+  "description": "DND5E城主工具包的正體中文化。目前整合了物品隨機表,部分常用物品材料等。部分功能依賴於Better Roll Tables。",
   "version": "1.4.0",
   "authors": [
     {
@@ -11,13 +11,17 @@
       "name": "苦力Dora"
     },
     {
-      "name": "classpack社区"
+      "name": "classpack社區"
+    },
+    {
+      "name": "HKTRPG",
+      "url": "https://support.hktrpg.com"
     }
   ],
   "packs": [
     {
       "name": "homebrewrolltable",
-      "label": "DMT随机表",
+      "label": "DMT隨機表",
       "path": "packs/homebrewrolltable",
       "type": "RollTable",
       "system": "dnd5e",
@@ -72,7 +76,7 @@
     },
     {
       "name": "DMTHBrules",
-      "label": "DMT私设",
+      "label": "DMT私設",
       "path": "packs/DMTHBrules",
       "type": "JournalEntry",
       "system": "dnd5e",
@@ -87,19 +91,16 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-        "compatibility": {
-          "verified": "2.2.2"
-        }
+        "compatibility": {}
       }
     ],
     "requires": [
       {
         "id": "dnd5e_classpack",
         "type": "module",
-        "manifest": "https://raw.githubusercontent.com/HJSmile/classpack/master/dnd5e_classpack/module.json",
+        "manifest": "https://github.com/hktrpg/fvtt-5e-classpack-zh-tw/releases/download/1.0.0/module.json",
         "compatibility": {
-          "verified": "2.2.0"
+          "verified": "1.0.0"
         }
       }
     ],
@@ -113,9 +114,10 @@
   },
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "11",
+    "maximum": "12"
   },
-  "url": "https://github.com/feederze/DMTools",
-  "manifest": "https://raw.githubusercontent.com/feederze/DMTools/main/module.json",
-  "download": "https://raw.githubusercontent.com/feederze/DMTools/main/dnd5e_DMTools.zip"
+  "url": "https://github.com/hktrpg/fvtt-5e-DMTools-zh-tw",
+  "manifest": "ttps://github.com/hktrpg/fvtt-5e-classpack-zh-tw/releases/download/1.0.0/module.json",
+  "download": "ttps://github.com/hktrpg/fvtt-5e-classpack-zh-tw/releases/download/1.0.0/dnd5e_DMTools.zip"
 }

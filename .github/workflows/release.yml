@@ -1,0 +1,56 @@
+name: Release module zip
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - module.json
+  workflow_dispatch:
+
+jobs:
+  build-and-release:
+    name: Build and create GitHub Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Read version from module.json
+        id: read_version
+        run: |
+          VERSION=$(jq -r .version module.json)
+          if [ -z "$VERSION" ] || [ "$VERSION" = "null" ]; then
+            echo "Unable to read version from module.json" >&2
+            exit 1
+          fi
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "Detected version: $VERSION"
+
+      - name: Create release archive
+        run: |
+          zip -r dnd5e_DMTools.zip . \
+            -x ".git/*" \
+               ".github/*" \
+               "**/*.zip"
+
+      - name: Create GitHub Release and upload asset
+        uses: ncipollo/release-action@v1
+        with:
+          tag: v${{ env.VERSION }}
+          name: v${{ env.VERSION }}
+          draft: false
+          prerelease: false
+          allowUpdates: true
+          artifacts: dnd5e_DMTools.zip
+          artifactErrorsFailBuild: true
+          body: |
+            Automated release for version ${{ env.VERSION }}.
+            
+            - Asset: dnd5e_DMTools.zip
+            - Manifest: https://raw.githubusercontent.com/${{ github.repository }}/main/module.json
+

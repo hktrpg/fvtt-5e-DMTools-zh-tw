@@ -12,6 +12,31 @@
     https://raw.githubusercontent.com/hktrpg/fvtt-5e-DMTools-zh-tw/main/module.json
 ```
 
+## 相關模組
+
+DnD 5e classpack zh-tw 正體中文 for fvtt
+
+<https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack/module.json>
+
+龍與地下城五版（DnD5E）—正體中文
+<https://gitlab.com/fvtt-zh_TW/dnd5e-taiwan-zh-tw/-/raw/13.3.4.2.01/module.json>
+
+Translation: 正體中文 [DnD 5e]
+<https://raw.githubusercontent.com/HKTRPG/foundryVtt_dnd5e_zh-tw/main/module.json>
+
+Actor Studio
+<https://github.com/geoidesic/foundryvtt-actor-studio/releases/latest/download/module.json>
+
+Translation: 正體中文 [Core]
+<https://raw.githubusercontent.com/hktrpg/foundry_zh-tw/main/module.json>
+
+DND5E城主工具包-正體中文
+<https://raw.githubusercontent.com/hktrpg/fvtt-5e-DMTools-zh-tw/main/module.json>
+
+## 使用方法
+
+<https://docs.google.com/document/d/1G4umHkFeSWn0ma92kaL_EI0lVRMhfk9ZKVjfLI2PXMY/edit#heading=h.gt8p42yhd29y>
+
 ## 介紹
 
 DND5E城主工具包，實現了以下功能：

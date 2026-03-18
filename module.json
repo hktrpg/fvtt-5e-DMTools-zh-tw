@@ -96,7 +96,7 @@
     ],
     "requires": [
       {
-        "id": "dnd5e_classpack",
+        "id": "dnd5e_classpack-zh-tw",
         "type": "module",
         "manifest": "https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack/module.json",
         "compatibility": {

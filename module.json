@@ -105,6 +105,23 @@
       }
     ],
     "recommends": [
+      {
+        "id": "foundryvtt-actor-studio",
+        "type": "module",
+        "manifest": "https://github.com/geoidesic/foundryvtt-actor-studio/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "foundryVtt_dnd5e_zh-tw",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/hktrpg/foundryvtt-5e-zh-tw/refs/heads/main/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      }
     ]
   },
   "compatibility": {

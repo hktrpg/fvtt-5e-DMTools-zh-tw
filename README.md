@@ -15,7 +15,6 @@
 ## 相關模組
 
 DnD 5e classpack zh-tw 正體中文 for fvtt
-
 <https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack/module.json>
 
 龍與地下城五版（DnD5E）—正體中文
